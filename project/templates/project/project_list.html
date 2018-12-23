@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="centerstage">
+
+	<h1>{{title}}</h1>
+    {% for prj in project_list %}
+            <h5><a href="{% url 'project_detail' pk=prj.pk %}">{{ prj.title }}</a></h5>
+            <!--<div class="date"><p>{{ prj.published_date|date:"D M Y"}}</p></div>-->
+
+
+    {% endfor %}
+</div>
+  {% if user.is_authenticated %}
+
+      <hr>
+      <a class="btn btn-primary btn-comment" href="{% url 'project_new' %}">Add Project</a>
+
+
+
+  {% endif %}
+{% endblock %}

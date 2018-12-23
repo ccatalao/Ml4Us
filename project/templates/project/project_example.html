@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>{{ project.title }}
+
+
+  {% if user.is_authenticated %}
+      <a class="btn btn-defaut" href="{% url 'project_edit' pk=project.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+      <a class="btn btn-default" href="{% url 'project_remove' pk=project.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+            <a class="btn btn-primary btn-comment" href="{% url 'add_label_to_project' pk=project.pk %}">Add Label</a></h1>
+
+      <hr>
+  {% endif %}
+
+
+  {% for label in project.labels.all %}
+  <br>
+      {% if user.is_authenticated or label.approved_label %}
+
+        <div class='thumbnail'>   
+              <h3><a class="btn btn-default" href="{% url 'label_docs_list' pk=label.pk %}">{{ label.text|upper}}
+              </a><a class="btn btn-default" href="{% url 'label_edit' pk=label.pk %}"><span class="glyphicon glyphicon-pencil "></span></a><a class="btn btn-default" href="{% url 'label_remove' pk=label.pk %}"><span class="glyphicon glyphicon-remove"></span></a><a class="btn btn-default" href="{% url 'label_import_data' pk=label.pk %}"><span class="glyphicon glyphicon-file"></span></a></h3>
+
+        </div>
+
+
+{% endif %}
+  {% empty %}
+      <p>No labels added.</p>
+  {% endfor %}
+
+
+{% endblock %}

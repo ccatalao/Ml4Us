@@ -1,0 +1,11 @@
+
+
+{% if request.user.is_authenticated %}
+
+<hr/><br>
+     <p><a class='btn btn-warning' href='{% url "projects:create" %}'>Add project</a>&nbsp&nbsp<a class='btn btn-warning' href='{% url "label:create" %}'>Add label</a>
+
+{% else %}
+
+{% endif %}
+

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>New text</h3>
+    <form method="POST" class="post-form">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="save btn btn-default">ok</button>
+    </form>
+
+    <!--<script>var editor = new MediumEditor('.editable');</script>-->
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class='row text-center'>
+    <div class='col-sm-6 col-sm-offset-3'>
+        <h2>{{ title|upper }}</h2>  
+        <hr/>
+
+               <p><a class="btn btn-warning" href="{% url 'label_edit' pk=label_pk %}"><span class="glyphicon glyphicon-pencil "></span></a>
+                <a class="btn btn-warning" href="{% url 'label_remove' pk=label_pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+                <a class="btn btn-warning" href="{% url 'add_doc_to_label' pk=label_pk %}"><span class="glyphicon glyphicon-file "></span></a>
+              </p>
+        <hr/>
+    </div>
+</div>
+
+
+    {% for doc in docs_list %}
+                        <div class='thumbnail'> {{ doc.text|safe }}&nbsp&nbsp&nbsp<a href="{% url 'doc_edit' pk=doc.pk %}"><span class="glyphicon glyphicon-pencil "></span></a>&nbsp<a href="{% url 'doc_remove' pk=doc.pk %}"><span class="glyphicon glyphicon-remove"></span></a></div>
+    {% endfor %}
+
+<nav>
+    <div class="pagination">
+        <span class="step-links">
+            {% if docs_list.has_previous %}
+                <a href="?page=1">&laquo; first</a>
+                <a href="?page={{ docs_list.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ docs_list.number }} of {{ docs_list.paginator.num_pages }}.
+            </span>
+
+            {% if docs_list.has_next %}
+                <a href="?page={{ docs_list.next_page_number }}">next</a>
+                <a href="?page={{ docs_list.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</nav>
+{% endblock %}

@@ -1,0 +1,370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PROJECT",
+				"PROJECT_SETTINGS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/settings.py",
+			"settings":
+			{
+				"buffer_size": 3538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git:merge",
+				"git: merge"
+			],
+			[
+				"git:pull",
+				"git: pull"
+			],
+			[
+				"git:status",
+				"git: status"
+			],
+			[
+				"git:track",
+				"git: stash save including untracked files"
+			],
+			[
+				"git:s",
+				"git: status"
+			],
+			[
+				"git:add",
+				"git: remote add"
+			],
+			[
+				"git:remove",
+				"git: remote remove"
+			],
+			[
+				"g",
+				"git: status"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"bra",
+				"git: branch"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"ranc",
+				"git: branch"
+			],
+			[
+				"b",
+				"git: branch"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/calves/Desktop/ml4us",
+		"/Users/calves/Desktop/ml4us/config"
+	],
+	"file_history":
+	[
+		"/Users/calves/Desktop/dev/ml4us/src/config/production_settings.py",
+		"/Users/calves/Desktop/dev/ml4us/src/config/dev_settings.py",
+		"/Users/calves/Desktop/dev/ml4us/Dockerfile",
+		"/Users/calves/Desktop/dev/ml4us/src/config/common_settings.py",
+		"/Users/calves/Desktop/dev/ml4us/requirements.common.txt",
+		"/Users/calves/Desktop/dev/ml4us/scripts/pip_install.sh",
+		"/Users/calves/Desktop/dev/ml4us/scripts/collect_static.sh",
+		"/Users/calves/Desktop/dev/ml4us/src/config/settings.py",
+		"/Users/calves/Desktop/dev/ml4us/src/requirements.common.txt",
+		"/Users/calves/Desktop/dock/docker-compose.yml",
+		"/Users/calves/Desktop/dev/ml4us/src/project/views.py",
+		"/Users/calves/Desktop/dev/ml4us/src/project/templates/project/project_detail.html",
+		"/Users/calves/Desktop/dev/ml4us/src/project/templates/project/project_list.html",
+		"/Users/calves/Desktop/dev/ml4us/src/project/templates/project/project_confirm_delete.html",
+		"/Users/calves/Desktop/dev/ml4us/src/requirements.production.txt",
+		"/Users/calves/Desktop/dev/ml4us/src/media/requirements.dev.txt",
+		"/Users/calves/Desktop/dev/ml4us/src/project/templates/project/label_confirm_delete.html",
+		"/Users/calves/Desktop/dev/ml4us/src/project/templates/project/doc_confirm_delete.html",
+		"/Users/calves/Desktop/dev/ml4us/django/core/__init__.py",
+		"/Users/calves/Desktop/dev/ml4us/django/core/templates/core/project_list.html",
+		"/Users/calves/Desktop/Ml4Us/django/templates/base.html",
+		"/Users/calves/Desktop/Ml4Us/django/core/views.py",
+		"/Users/calves/Desktop/Ml4Us/django/core/urls.py",
+		"/Users/calves/Desktop/Ml4Us/django/config/urls.py",
+		"/Users/calves/Desktop/Ml4Us/requirements.txt",
+		"/Users/calves/Desktop/Ml4Us/django/core/admin.py",
+		"/Users/calves/Desktop/Ml4Us/django/core/templates/core/urls.py",
+		"/Users/calves/Desktop/Ml4Us/django/templates/urls.py",
+		"/Users/calves/Desktop/Ml4Us/django/core/templates/core/project_list.html",
+		"/Users/calves/Desktop/ol/src/project/templates/project/project_list.html",
+		"/Users/calves/Desktop/ol/src/project/templates/project/doc_list.html",
+		"/Users/calves/Desktop/ol/src/project/urls.py",
+		"/Users/calves/Desktop/ol/src/project/templates/project/project_detail.html",
+		"/Users/calves/Desktop/ol/src/project/templates/project/project_example.html",
+		"/Users/calves/Desktop/ol/src/project/templates/project/label_confirm_delete.html",
+		"/Users/calves/Desktop/ol/src/project/views.py",
+		"/Users/calves/Desktop/ol/src/ai_app/views.py",
+		"/Users/calves/Desktop/ol/src/project/templates/project/project_main.html",
+		"/Users/calves/Desktop/ol/src/ai_app/urls.py",
+		"/Users/calves/Desktop/ol/src/ai_app/templates/ai_app/process_aplicar.html",
+		"/Users/calves/Desktop/ol/src/ai_app/templates/ai_app/ai_aplicar.html",
+		"/Users/calves/Desktop/ol/src/ai_app/templates/ai_app/ai_treinar.html",
+		"/Users/calves/Desktop/ol/src/project/models.py",
+		"/Users/calves/Desktop/ol/src/Templates/snippets/nav_train.html",
+		"/Users/calves/Desktop/ol/src/profiles/views.py",
+		"/Users/calves/Desktop/ol/src/project/templates/project/populate.html",
+		"/Users/calves/Desktop/ol/src/project/templates/project/base.html",
+		"/Users/calves/Desktop/ol/src/Templates/base.html",
+		"/Users/calves/Desktop/ol/src/project/__init__.py",
+		"/Users/calves/Desktop/dev/src/ai_app/templates/ai_app/base_ai_index.html",
+		"/Users/calves/Desktop/dev/src/ai_app/templates/ai_app/base_ai.html",
+		"/Users/calves/Desktop/dev/src/ai_app/templates/ai_app/name.html",
+		"/Users/calves/Desktop/dev/src/ai_app/forms.py",
+		"/Users/calves/Desktop/PEN/corpus/corpus copy.py",
+		"/Users/calves/Desktop/dev/src/myapp/templates/myapp/textos_list.html",
+		"/Users/calves/Desktop/dev/src/myapp/views.py",
+		"/Users/calves/Desktop/dj_edu4AI/templates/index.html",
+		"/Users/calves/Desktop/dev/src/manage.py",
+		"/Users/calves/Desktop/dev/src/classificar/templates/classificar/base_classificar.html",
+		"/Users/calves/Desktop/NLP-AI-Workbook-master/03. Classificar/classificar.py",
+		"/Users/calves/Desktop/ssh calves@webserver12.cienciaviva.pt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3481,
+								3481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "requirements.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 276.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 109.0
+	},
+	"pinned_build_system": "",
+	"project": "ml4us.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
