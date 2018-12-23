@@ -11,8 +11,6 @@ from django.core.paginator import Paginator
 from django.urls import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-import pandas as pd
-
 
 class ProjectExampleView(LoginRequiredMixin, DetailView):    
     template_name = 'project/project_detail.html'
